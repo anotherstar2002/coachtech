@@ -311,3 +311,67 @@ textarea{
   text-align: center;
   line-height: 80px;
 }
+
+/* レスポンシブ */
+
+@media screen and (max-width: 768px) {
+  #hamburger {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top:15px;
+  right:20px;
+  transition: 0.4s;
+  }
+
+  #hamburger span{
+    position: absolute;
+    left:2px;
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.8s;
+  }
+
+  #hamburger span:nth-last-of-type(1) {
+    top:10px;
+  }
+
+  #hamburger span:nth-last-of-type(2) {
+    top:20px;
+  }
+
+  #hamburger span:nth-last-of-type(3) {
+    top:30px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .about-left,
+  .about-right {
+    width: 80%;
+  }
+
+  .business-cat {
+    width: 80%;
+  }
+
+  label {
+    display: block;
+  }
+
+  .form > div {
+    margin: 0 auto;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+ 
+}
