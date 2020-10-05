@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COATCHTECH</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="flex between">
-        <h1 class="header-logo">estra inc</h1>
+
+<head>
+  <meta charset="utf8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <title>演習問題</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="firstview">
+    <header id="top-header">
+      <div class="flex">
+        <h1 class="header-logo">estra inc.</h1>
         <nav class="header-nav">
           <ul>
             <li><a href="#">home</a></li>
@@ -21,131 +24,116 @@
           </ul>
         </nav>
       </div>
+    </header>
       <div id="hamburger">
         <span></span>
         <span></span>
-        <span></span>            
+        <span></span>
       </div>
-    </header>
-    <main>
-      <div id="eyecatch">
-        <p>estra</p>
+    <p class="catchcopy">機械ではできない仕事を</p>
+    <div class="news flex">
+      <div class="news-content">
+        <p class="news_date">2019/01/01</p>
+        <p class="news_title">
+          ニュースタイトルがここには入ります。3月の決算報告書
+        </p>
       </div>
-      <div id="about" class="wrap">
-        <h2 class="section-title">about</h2>
-        <div class="flex around"> <!--flexで横並び対象にして、aroundで均等割付-->
-          <div class="about-left">
-            <img src="img/bg2.jpg" alt="">
-          </div>
-          <div class="about-right">
-            <h3>estra inc.</h3>
-            <p>
-              私たちは、お客様の満足度を徹底的に追及することで、お客様・市場・時代のニーズを的確に捉え、事業の拡大と周辺ビジネスによる差別化、業界における圧倒的な地位の確立を図るべく積極的な事業活動を行っています。
-            </p>
-            <ol>
-              <li>コーチング事業</li>
-              <li>プログラミング事業</li>
-              <li>SaaS事業</li>
-            </ol>
-          </div>     
+      <div class="news-icon">news</div>
+    </div>
+  </div>
+  <main>
+    <div class="mission">
+      <div class="mission-content">
+        <h2 class="mission_title">
+          お客様のために進化する成長企業であり続ける
+        </h2>
+        <p class="mission_text">
+          顧客主導型サービスを提供する企業として、お客様の会社経営に必要なサービスと情報を提供し続ける企業支援会社を目指します。企業が現在直面している「勝ち残るため」の戦略を提供できる会社として、ホームページをはじめ、各種マーケティングをご提供いたします。
+        </p>
+        <a href="" class="common-btn mission-btn">ミッション詳細</a>
+      </div>
+      <div class="mission-img">
+        <img src="img/mission-img.jpg" alt="" />
+      </div>
+    </div>
+    <div class="service">
+      <h2 class="service-title section-title">service</h2>
+      <div class="service-content">
+        <div class="service-img">
+          <img src="img/service2.jpg" alt="" />
+        </div>
+        <div class="service-content_inner">
+          <h3 class="mgb-15">web制作事業</h3>
+          <p class="mgb-15">コーチングのミッション</p>
+          <p class="mgb-15">
+            ユーザーが求める物を分析し、ユーザビリティを備えた最適なサイトを提供。建設業から美容、ブライダル、飲食店まで多種多様な業種の制作実績があります
+          </p>
+          <a href="" class="common-btn service-btn">サービス詳細</a>
         </div>
       </div>
-      <div id="business">
-        <h2 class="section-title">service</h2>
-        <div class="flex around business-wrap">
-          <div class="business-cat">
-            <img src="img/business-icon.png" alt="">
-            <h3>ビジネスA</h3>
-            <p>
-              ビジネスの説明が入ります。ビジネスの説明が入ります。ビジネスの説明が入ります。ビジネスの説明が入ります。
-            </p>
-          </div>
-          <div class="business-cat">
-            <img src="img/business-icon.png" alt="">
-            <h3>ビジネスB</h3>
-            <p>
-              ビジネスの説明が入ります。ビジネスの説明が入ります。ビジネスの説明が入ります。ビジネスの説明が入ります。
-            </p>
-          </div>
-          <div class="business-cat">
-            <img src="img/business-icon.png" alt="">
-            <h3>ビジネスC</h3>
-            <p>
-              ビジネスの説明が入ります。ビジネスの説明が入ります。ビジネスの説明が入ります。ビジネスの説明が入ります。
-            </p>
-          </div>
+      <div class="service-content">
+        <div class="service-img service-img_second">
+          <img src="img/service1.jpg" alt="" />
+        </div>
+        <div class="service-content_inner service-content_inner-second">
+          <h3 class="mgb-15">web制作事業</h3>
+          <p class="mgb-15">コーチングのミッション</p>
+          <p class="mgb-15">
+            ユーザーが求める物を分析し、ユーザビリティを備えた最適なサイトを提供。建設業から美容、ブライダル、飲食店まで多種多様な業種の制作実績があります
+          </p>
+          <a href="" class="common-btn service-btn">サービス詳細</a>
         </div>
       </div>
-      <div id="company">
-        <h2 class="section-title">company</h2>
-        <table class="contain">    
-          <tr>
-            <th>会社名</th>
-            <td>株式会社estra</td>
-          </tr>          
-          <tr>
-            <th>代表者名</th>
-            <td>福島林太郎</td>
-          </tr>          
-          <tr>
-            <th>本社所在地</th>
-            <td>東京都渋谷区</td>
-          </tr>          
-          <tr>
-            <th>従業員数</th>
-            <td>100名</td>
-          </tr>          
-          <tr>
-            <th>電話番号</th>
-            <td>0120-111-111</td>
-          </tr>          
-          <tr>
-            <th>FAX</th>
-            <td>0120-111-111</td>
-          </tr>          
-          <tr>
-            <th>メールアドレス</th>
-            <td>info@etra.inc</td>
-          </tr>          
-          <tr>
-            <th>資本金</th>
-            <td>1000万円</td>
-          </tr>          
-          <tr>
-            <th>事業内容</th>
-            <td>コーチング</td>
-          </tr>          
-        </table>
+    </div>
+    <div class="company">
+      <div class="recruit-company flex">
+        <div class="recruit-company_size company-img">
+          <h2 class="company-title section-title">
+            company<br /><span>会社概要</span>
+          </h2>
+        </div>
+        <div class="recruit-company_size recruit-img">
+          <h2 class="company-title section-title">
+            recruit<br /><span>採用情報</span>
+          </h2>
+        </div>
       </div>
-      <div id="contact">
-        <h2 class="section-title">contact</h2>
-        <form class="form" method="post">
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name">
-          </div>
-          <div>
-            <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="user_mail">
-          </div>
-          <div>
-            <label for="tell">Tell:</label>
-            <input type="tell" id="tell" name="user_tell">
-          </div>
-          <div>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-          </div>
-          <div>
-            <div class="button-submit">
-              <button class="button" type="submit">Button</button>
-            </div>
-          </div>
-        </form>
+    </div>
+    <div class="faq">
+      <h2 class="faq-title">FAQ</h2>
+      <p class="faq-title-jp">良くある質問</p>
+    </div>
+    <div class="contact">
+      <h2 class="contact-title section-title">
+        contact<br /><span>お問い合わせ</span>
+      </h2>
+      <p class="contact-subtitle section-title">
+        お気軽にお問い合わせください。
+      </p>
+      <p class="contact-text">
+        資料請求・お問い合わせなどなんでも気軽にお問い合わせください。お仕事のご連絡もお問い合わせページに飛んでいただいて、入力フォームにご記入お願いいたします。
+      </p>
+      <a href="" class="common-btn contact-btn">お問い合わせへ</a>
+    </div>
+    <footer class="top-footer">
+      <div class="footer-bar">
+        <div class="flex">
+          <h1 class="header-logo">estra inc.</h1>
+          <nav class="header-nav">
+            <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">service</a></li>
+              <li><a href="#">works</a></li>
+              <li><a href="#">price</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </main>
-    <footer id="footer">
       <small>Copyright 2019 estra inc. All Rights Reserved.</small>
     </footer>
-  </body>
+  </main>
+</body>
+
 </html>
