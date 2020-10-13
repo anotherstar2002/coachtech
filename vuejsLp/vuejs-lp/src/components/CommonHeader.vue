@@ -43,7 +43,7 @@
               <a href="#">contact</a>
             </li>
           </ul>
-    </nav>
+      </nav>
       <p class="catchcopy">機械ではできない仕事を</p>
       <div class="news flex">
         <div class="news-content">
@@ -166,8 +166,17 @@ export default {
   }
 
   #top-header {
-    position: relative;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+    background: grey;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
   }
+
   #hamburger {
     width: 40px;
     height: 40px;

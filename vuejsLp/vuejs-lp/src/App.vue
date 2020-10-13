@@ -33,7 +33,7 @@
       <div class="company">
         <div class="recruit-company flex">
           <div class="recruit-company_size" v-for="(item, index) in recruit" :key="index">
-            <img :class = "company-img" :src="item.img" alt/>
+            <img :src="item.img" alt/>
             <h2 class="company-title section-title">
               {{item.english}}<br/><span>{{item.japanese}}</span>
             </h2>

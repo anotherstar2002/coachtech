@@ -60,4 +60,14 @@ export default {
 .footer-nav a {
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+
+.footer-bar,
+.footer-logo,
+.footer-nav {
+  display: none;
+}
+
+}
 </style>
