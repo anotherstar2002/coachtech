@@ -1,18 +1,19 @@
 <template>
-  <div class="home">
-    <h1>郵便番号から住所と天気を検索</h1>
+<div id="app">
+  <div class="zipToAddress">
+    <h2>郵便番号から住所と天気を検索</h2>
     <input type="text" v-model="zip" placeholder="半角7桁">
     <button @click="getAddWeather()">住所自動入力</button>
     <p>Address:{{ address }}</p>
-      <ul v-if="show">
         <li>天気:{{main}}</li>
         <li>温度:{{temp}}°</li>
         <li>湿度:{{humidity}}%</li>
         <li>風速:{{speed}}m</li>
         <li>緯度:{{latitude}}</li>
-        <li>経度:{{longitude}}</li>
-      </ul>         
+        <li>経度:{{longitude}}</li>      
   </div>
+</div>
+  
 </template>
 
 <script>
